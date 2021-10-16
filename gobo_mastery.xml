@@ -38,8 +38,8 @@ only_test = 1
 require "addxml"
 addxml.alias{
     enabled="y",
-    name="who_guilds",
-    match=[[/gen_mast]],
+    name="gobo_mastery_alias",
+    match=[[^/gen_mast]],
     regexp="y",
     sequence="50",
     script="func_general_shop_inventory",
